@@ -1,0 +1,38 @@
+body {
+  font-family: sans-serif;
+  background-color: aquamarine;
+}
+.face {
+  position:absolute;
+  height: 80px;
+  width: 80px;
+  background-color: rgb(200, 230, 176); 
+  border: 2px solid red;
+  border-radius: 75px;
+}
+
+.eye_container {
+  display: flex;
+  flex-direction: row; 
+  height: 50px;
+  width: 50px;
+}
+
+.eye {
+  height: 20px;
+  width: 20px;
+  background-color: rgb(200, 230, 176); 
+  border: 2px solid red;
+  border-radius: 75px;
+  margin-top: 15px;
+  margin-left: 10px;
+}
+
+.pupil {
+  height: 10px;
+  width: 10px;
+  background-color: black; 
+  border: 2px solid red;
+  border-radius: 75px;
+  margin-left: 8px;
+}
